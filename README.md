@@ -1,7 +1,9 @@
 # ACE_Resupply
 Neky-Supply
-When using this script, you need to have a Script folder so take the "Aceresupply.sqf" and the "Acemed.sqf" and put it inside the script folder
-then you just place the nekky supply folder in your scripts folder.
+Installation
+When using this script, you need to have a Script folder 
+Then take the "Aceresupply.sqf" and the "Acemed.sqf" and put it inside the script folder.
+Then you just place the nekky supply folder in your scripts folder.
 
 You will then need to create an init.sqf file and put this code in to it.
 execVM "Scripts\Acepickup.sqf";
