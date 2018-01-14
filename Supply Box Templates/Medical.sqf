@@ -18,5 +18,8 @@ ClearMagazineCargoGLobal _Box;
 sleep 0.5;
 
 // Add Items
-_Box addItemCargoGlobal ["FirstAidKit",50];
-_Box addItemCargoGlobal ["Medikit",2];
+_Box addItemCargoGlobal ["ACE_fieldDressing",100];
+_Box addItemCargoGlobal ["ACE_elasticBandageItem",60];
+_Box addItemCargoGlobal ["ACE_bloodIV",30];
+_Box addItemCargoGlobal ["ACE_epinephrine",40];
+_Box addItemCargoGlobal ["ACE_morphine",50];
