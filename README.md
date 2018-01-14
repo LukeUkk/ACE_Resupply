@@ -8,5 +8,5 @@ Neky-Supply Installation
 * execVM "Scripts\Acemed.sqf";
 * execVM "Scripts\Aceresupply.sqf";
 
-Only Actuall and Squad leaders can use this and it only works on a server so test your mission on lan.
+Only Actuall and Squad leaders can use this and it only works on a server so test your mission on lan. You can edit the templates found in the folder to change what equipment is dropped.
 Script was made by Neko and adapted to Ace by Luke.
