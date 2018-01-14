@@ -2,7 +2,7 @@
 Neky-Supply Installation
 * When using this script, you need to have a Scripts folder.
 * (Optional) Take the "Aceresupply.sqf" and the "Acemed.sqf" out of the Nekky_supply folder and put it inside the script folder.
-* Then you just place the Nekky_supply folder in your scripts folder and make sure its called Nekky_supply.
+* Then you just place the Nekky_supply folder in your scripts folder and make sure its called NEKKY_Supply.
 
 * You will then need to create an init.sqf file and put this code in to it.
 * execVM "Scripts\Acemed.sqf";
