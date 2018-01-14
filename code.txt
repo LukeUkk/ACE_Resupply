@@ -1,1 +1,0 @@
-This addAction ["Resupply", {[player, systemChat "Pilot: Awaiting coordinates"] onMapSingleClick {[blufor,"","drop",["spawn",_pos,"despawn"],"Scripts\NEKY_supply\Supply Box Templates\Resupply.sqf",false] execVM "Scripts\NEKY_supply\NEKY_SupplyMapClick.sqf"};}];
