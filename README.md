@@ -8,7 +8,7 @@ Neky-Supply Installation
 * execVM "Scripts\Acemed.sqf";
 * execVM "Scripts\Aceresupply.sqf";
 
-* Optional not tested
+* Do this if Picked Optional / not tested
 * execVM "Scripts\NEKY_supply\Aceresupply.sqf";
 * execVM "Scripts\NEKY_supply\Acemed.sqf";
 
