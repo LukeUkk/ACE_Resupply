@@ -1,12 +1,12 @@
 # ACE_Resupply
-Neky-Supply
-Installation
-When using this script, you need to have a Script folder 
-Then take the "Aceresupply.sqf" and the "Acemed.sqf" and put it inside the script folder.
-Then you just place the nekky supply folder in your scripts folder.
+Neky-Supply Installation
+* When using this script, you need to have a Script folder.
+* Take the "Aceresupply.sqf" and the "Acemed.sqf" and put it inside the script folder.
+* Then you just place the Nekky_supply folder in your scripts folder and make sure its called Nekky_supply.
 
-You will then need to create an init.sqf file and put this code in to it.
-execVM "Scripts\Acepickup.sqf";
-execVM "Scripts\Aceresupply.sqf";
+* You will then need to create an init.sqf file and put this code in to it.
+* execVM "Scripts\Acemed.sqf";
+* execVM "Scripts\Aceresupply.sqf";
 
-Only Actuall and squad leaders can use this and it only works on a server so test your mission on lan.
+Only Actuall and Squad leaders can use this and it only works on a server so test your mission on lan.
+Script was made by Neko and adapted to Ace by Luke.
