@@ -173,7 +173,7 @@ Switch (_Type) do
 					WaitUntil {(((GetPosATL _Box) select 2) <= 1)};
 					
 					Detach _Box;
-					SystemChat "Pilot: Supplies Lannded!";
+					SystemChat "Pilot: Supplies Landed!";
 				};
 			};
 		};
