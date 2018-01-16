@@ -5,6 +5,6 @@ if (hasInterface) then {
     [typeOf player, 1, ["ACE_SelfActions","ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToClass;
 };
 
-// Thanks to Neko for the scripts and helping fixing errors & Guzzman for restucturing the code to be easier to read & helping fixing errors:) 
+// Thanks to Neko for the scripts and helping fixing errors & Guzzman for restructuring the code to be easier to read:) 
 // Here I have made nekos scripts and functions compatabile to the ace UI, only thing you can edit really is [blufor,"","drop",["spawn",_pos,"despawn"] so this means/ change side,"","unload or drop", ["markername","mouse click","markername"]
 // By Luke.
