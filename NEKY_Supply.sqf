@@ -21,7 +21,7 @@
 //	 
 //	To set it up by using Radio calls (clicking 0 and 0 again while in-game) see NEKY_SupplyInit.sqf for more info.
 //	
-//	Made By NeKo-ArroW with help from GuzzenVonLidl
+//	Made By NeKo-ArroW with help from GuzzenVonLidl and edited to work with ace by Luke
 
 if (hasInterface && !isServer) exitWith {false};		// Ensures only server or HC runs this script
 	
@@ -173,6 +173,7 @@ Switch (_Type) do
 					WaitUntil {(((GetPosATL _Box) select 2) <= 1)};
 					
 					Detach _Box;
+					SystemChat "Pilot: Supplies Lannded!";
 				};
 			};
 		};
