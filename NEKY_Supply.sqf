@@ -21,7 +21,7 @@
 //	 
 //	To set it up by using Radio calls (clicking 0 and 0 again while in-game) see NEKY_SupplyInit.sqf for more info.
 //	
-//	Made By NeKo-ArroW with help from GuzzenVonLidl and edited to work with ace by Luke
+//	Made By NeKo-ArroW with help from GuzzenVonLidl with tweeks from Luke for ace
 
 if (hasInterface && !isServer) exitWith {false};		// Ensures only server or HC runs this script
 	
@@ -140,15 +140,6 @@ Switch (_Type) do
 				{
 					_Box = _This select 0;
 					_BoxCode = _This select 1;
-					if ((side player) == west) then {
-					[_Box, ["big_box","west"]] call GW_Gear_Fnc_Init;
-					};
-					if ((side player) == east) then {
-					[_Box, ["big_box","east"]] call GW_Gear_Fnc_Init;
-					};
-					if ((side player) == independent) then {
-					[_Box, ["big_box","independent"]] call GW_Gear_Fnc_Init;
-					};
 					sleep 2;
 					if (TypeName _BoxCode == "STRING") Then {if (_BoxCode != "") then {[_Box] execVM _BoxCode};} else {[_Box] call _BoxCode};
 				};
@@ -214,19 +205,9 @@ Switch (_Type) do
 					if (Alive _Heli) then
 					{
 						_Box = CreateVehicle [_BoxClass, _Position, [], 0, "CAN_COLLIDE"];
-						if ((side player) == west) then {
-						[_Box, ["big_box","west"]] call GW_Gear_Fnc_Init;
-						};
-						if ((side player) == east) then {
-						[_Box, ["big_box","east"]] call GW_Gear_Fnc_Init;
-						};
-						if ((side player) == independent) then {
-						[_Box, ["big_box","independent"]] call GW_Gear_Fnc_Init;
-						};
 						if (TypeName _BoxCode == "STRING") Then {if (_BoxCode != "") then {[_Box] execVM _BoxCode};} else {[_Box] call _BoxCode};
 					};
 					"Pilot: Supplies Unloaded." remoteExec ["systemChat"];
-					
 					DeleteVehicle _Pilot;
 					_Pilot = CreateAgent [_PilotClass, [0,0,0], [], 0, "NONE"];		// Ghetto fix for agent getting stuck on "_Heli Land 'LAND'".
 					_Pilot MoveInDriver _Heli;
@@ -235,7 +216,6 @@ Switch (_Type) do
 					_Pilot setCombatMode "BLUE";
 					_Pilot disableAI "FSM";
 					_Pilot MoveTo (_STD Select 2);
-
 				};
 			} else {
 				deleteVehicle _Helipad;
