@@ -4,8 +4,8 @@ Neky-Supply Installation
 
 * Then you just place the Nekky_supply folder in your scripts folder and make sure its called NEKKY_Supply.
 
-* You will then need to create an init.sqf file and put this code in to it.
-execVM "Scripts\NEKY_Supply\Ace_Resupply.sqf";
+* You will then need to create an init.sqf file and put this code in to it.<br>
+execVM "Scripts\NEKY_Supply\Ace_Resupply.sqf";<br>
 execVM "Scripts\NEKY_Supply\Ace_Med.sqf";
 
 # Important
