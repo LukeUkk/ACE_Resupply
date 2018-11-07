@@ -17,4 +17,3 @@ Script was made by Neko and adapted to Ace by Luke.
 
 Planned changes :-
 Gui interface to pick hellies and apply them ? 
-not sure 
